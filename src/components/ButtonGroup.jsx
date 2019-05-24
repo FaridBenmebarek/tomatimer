@@ -7,8 +7,8 @@ class ButtonGroup extends Component {
     return (
         <div className="btn-group">
           <Button text="Start" onBtnClick={props.onStart} onClass="btn btn-success ml-3"/>
-          <Button text="Stop" onBtnClick={props.onStop} onClass="btn btn-danger ml-3"/>
-          <Button text="Reset" onBtnClick={props.onReset} onClass="btn btn-secondary ml-3"/>
+          <Button text="Stop" onBtnClick={props.onStop} onClass="btn btn-warning ml-3"/>
+          <Button text="Reset" onBtnClick={props.onReset} onClass="btn btn-danger ml-3"/>
         </div>
     )
   }
