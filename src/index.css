@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header {
+  background-color: #61dafb;
+  border-radius: 8px;
+  color: aliceblue;
+  font-family: Cambria, sans-serif;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-group {
+  margin: 5px;
+  justify-content: space-between;
+}
